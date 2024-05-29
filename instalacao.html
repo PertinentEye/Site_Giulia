@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalação - Aprenda R do Zero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Instalação do R</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="conceitos.html">Conceitos Essenciais</a></li>
+                    <li><a href="programas.html">Criação de Programas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <h2>Tutorial em Vídeo</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SeuLinkDoVideoAqui" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2>Passo a Passo para Instalar o R</h2>
+                <p>Siga os passos abaixo para instalar o R no seu computador:</p>
+
+                <h3>Windows</h3>
+                <ol>
+                    <li>Visite o site oficial do R: <a href="https://cran.r-project.org" target="_blank">CRAN</a>.</li>
+                    <li>Na página inicial do CRAN, clique em "Download R for Windows".</li>
+                    <li>Clique em "base" para baixar a versão básica do R.</li>
+                    <li>Clique no link "Download R x.x.x for Windows" (onde "x.x.x" é a versão mais recente).</li>
+                    <li>Após o download, clique duas vezes no arquivo para iniciar a instalação.</li>
+                    <li>Siga as instruções do assistente de instalação, aceitando os termos e mantendo as configurações padrão.</li>
+                    <li>Para um ambiente de desenvolvimento mais amigável, recomendamos instalar o RStudio:
+                        <ul>
+                            <li>Visite <a href="https://rstudio.com/products/rstudio/download/" target="_blank">RStudio</a>.</li>
+                            <li>Baixe o instalador do RStudio para Windows.</li>
+                            <li>Execute o instalador e siga as instruções para completar a instalação.</li>
+                        </ul>
+                    </li>
+                    <li>Abra o R ou o RStudio para confirmar que a instalação foi bem-sucedida.
+                        <ul>
+                            <li>No console do R, digite <code>version</code> e pressione Enter para verificar a versão instalada.</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <h3>macOS</h3>
+                <ol>
+                    <li>Visite o site oficial do R: <a href="https://cran.r-project.org" target="_blank">CRAN</a>.</li>
+                    <li>Na página inicial do CRAN, clique em "Download R for macOS".</li>
+                    <li>Escolha a versão do instalador apropriada para seu sistema macOS (geralmente a mais recente).</li>
+                    <li>Após o download do arquivo .pkg, clique duas vezes nele para iniciar a instalação.</li>
+                    <li>Siga as instruções do assistente de instalação, aceitando os termos e mantendo as configurações padrão.</li>
+                    <li>Para um ambiente de desenvolvimento mais amigável, recomendamos instalar o RStudio:
+                        <ul>
+                            <li>Visite <a href="https://rstudio.com/products/rstudio/download/" target="_blank">RStudio</a>.</li>
+                            <li>Baixe o instalador do RStudio para macOS.</li>
+                            <li>Abra o arquivo .dmg e arraste o ícone do RStudio para a pasta "Aplicativos".</li>
+                        </ul>
+                    </li>
+                    <li>Abra o R ou o RStudio para confirmar que a instalação foi bem-sucedida.
+                        <ul>
+                            <li>No console do R, digite <code>version</code> e pressione Enter para verificar a versão instalada.</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <h3>Linux (Ubuntu)</h3>
+                <ol>
+                    <li>Abra o terminal.</li>
+                    <li>Digite o comando <code>sudo apt update</code> e pressione Enter.</li>
+                    <li>No terminal, digite <code>sudo apt install r-base</code> e pressione Enter.</li>
+                    <li>Siga as instruções e confirme a instalação quando solicitado.</li>
+                    <li>Para um ambiente de desenvolvimento mais amigável, recomendamos instalar o RStudio:
+                        <ul>
+                            <li>Baixe o pacote DEB do RStudio em <a href="https://rstudio.com/products/rstudio/download/" target="_blank">RStudio</a>.</li>
+                            <li>No terminal, navegue até o diretório onde o pacote foi baixado (usando <code>cd /caminho/do/diretorio</code>).</li>
+                            <li>Digite <code>sudo dpkg -i rstudio-x.x.x-amd64.deb</code> (substitua "x.x.x" pela versão do pacote) e pressione Enter.</li>
+                            <li>Se houver dependências não resolvidas, digite <code>sudo apt install -f</code> e pressione Enter para corrigi-las.</li>
+                        </ul>
+                    </li>
+                    <li>Abra o R ou o RStudio para confirmar que a instalação foi bem-sucedida.
+                        <ul>
+                            <li>No console do R, digite <code>version</code> e pressione Enter para verificar a versão instalada.</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <p>Após seguir esses passos, você estará pronto para começar a programar em R.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
